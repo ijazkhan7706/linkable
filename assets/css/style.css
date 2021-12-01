@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+
+:root {
+    --primary-color: #00966B;
+    --secondary-color: #002D20;
+}
+
+.active {
+    background-color: var(--primary-color) !important;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+    height: 100vh;
+    color: #fff;
+}
+
+.intro-indicators span {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 40px 10px;
+}
+
+.intro-first-page p {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.navigation .fa-arrow-circle-right {
+    color: #00966B;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.get-started-btn {
+    display: inline-block;
+    width: 90%;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    border-radius: 40px;
+    padding: 10px 40px;
+    color: #fff;
+    box-shadow: 0px 2px 8px 5px var(--secondary-color);
+    font-weight: bold;
+}
+
+.get-started-btn:visited {
+    color: #fff;
+}
+
+/*  LOGIN PAGE SART  */
+.login-page input[type="text"],
+.login-page input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 40px;
+    margin-bottom: 8px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 0px 8px 2px inset var(--secondary-color);
+    outline: none;
+}
+
+.forgot-password-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.sign-up-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-up-link:visited {
+    color: #fff;
+}
+
+.sign-in-width:before,
+.more-service-divider:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 25%;
+    background-color: var(--primary-color);
+    top: 50%;
+    left: 5%;
+
+}
+
+.sign-in-width:after,
+.more-service-divider:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 25%;
+    background-color: var(--primary-color);
+    top: 50%;
+    right: 5%;
+}
+
+.more-service-divider:before {
+    width: 10% !important;
+}
+
+.more-service-divider:after {
+    width: 10% !important;
+}
+
+.sign-in-google button,
+.send-OTP-btn {
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 35%;
+    border-radius: 40px;
+    padding: 10px 10px;
+}
+
+.send-OTP-btn {
+    /*display: block;*/
+    width: 100%;
+    background-color: var(--primary-color);
+
+}
+
+.sign-in-google button:first-child {
+    background-color: #4285F4;
+
+}
+
+.sign-in-google button:last-child {
+    background-color: #4267B2;
+    /*  LOGIN PAGE END  */
+
+}
+
+/*   SIGN UP PAGE START  */
+
+.login-form-model {
+    border-radius: 10px;
+    background-color: transparent;
+    width: 400px;
+    top: 4rem;
+    right: 5rem;
+    z-index: 9999
+}
+
+.login-form .login-input,
+.sing-up-input {
+    background-color: transparent;
+    width: 100%;
+    color: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 40px;
+    padding: 10px 20px 10px 3.5rem;
+}
+
+.login-form .checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1.5px solid #000;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-form .submit-btn {
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px 0;
+    background-color: var(--primary-color);
+    box-shadow: 0px 2px 8px 5px var(--secondary-color);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.login-form .checkbox-forget-btn a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 14px;
+    float: right;
+}
+
+.login-form #join-btn,
+#signin-btn {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-form .orsignin::before {
+    content: "";
+    position: absolute;
+    width: 7.4rem;
+    height: 1px;
+    background-color: var(--primary-color);
+    left: -7.8rem;
+    top: 13px;
+}
+
+.login-form label {
+    font-size: 15px;
+}
+
+.login-form .orsignin::after {
+    content: "";
+    position: absolute;
+    width: 7.4rem;
+    height: 1px;
+    background-color: var(--primary-color);
+    right: -7.8rem;
+    top: 13px;
+}
+
+.login-form .google-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4285F4;
+    padding: 9px 2.5rem 9px 3.5rem;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.login-form .facebook-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4267B2;
+    padding: 9px 2.2rem 9px 3.2rem;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+/*   SIGN UP PAGE END  */
+
+/*  SIGN UP WITH PHONE START  */
+.digit-group input {
+    color: white !important;
+    width: 30px !important;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/*  SIGN UP WITH PHONE END  */
+
+/*  SEARCH SERVICES PAGE START */
+.header-form input[type='text'] {
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #002D20;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px 2rem 10px 3rem;
+}
+
+.key-word span {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+}
+
+.service-boxes {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.service-box {
+    display: inline-block;
+    width: 40vw !important;
+    /*height: 200px*/
+    margin-right: 15px;
+    text-align: center;
+}
+
+.service-box img {
+    width: 100%;
+}
+
+.service-box p {
+    padding: 2px;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    background-color: var(--secondary-color);
+    margin: 0 !important;
+
+}
+
+.more-service-box img {
+    width: 100%;
+}
+
+.more-service-box {
+    width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  SEARCH SERVICES PAGE END */

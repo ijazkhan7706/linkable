@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Linkeble</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- FONT AWESOME CDN -->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="px-4">
+        <div style="height: 20vh" class="d-flex justify-content-center align-items-center">
+            <img src="assets/images/Group 9140.png">
+        </div>
+        <div style="">
+            <h6>Welcome!</h6>
+            <p>Sing Up to access all feature and Functionality</p>
+            <form action="#" method="POST">
+                <label for="number">Phone Number</label>
+                <div class="position-relative mb-2">
+                    <img src="assets/icons/Icon material-phone-iphone.png" class="position-absolute" style="top: 12px; left:25px" width="15px">
+                    <input type="number" name="" class="sing-up-input" placeholder="+1-911 111-22-33">
+                </div>
+                <span style="font-size: 10px;">Enter the phone number that was provided when registering your account</span><br>
+                <span class="text-muted">An SMS with a confirmation code will be sent to the specified phone number.</span>
+                <button class="send-OTP-btn my-2">Send OTP</button>
+                <span style="font-size: 12px">Enter the received verification code</span>
+                <br>
+                <div class="digit-group d-flex justify-content-evenly align-items-center mt-3" data-group-name="digits">
+                    <input type="text" id="digit-1" name="digit-1" data-next="digit-2" />
+                    <input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" />
+                    <input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" />
+                    <input type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" />
+                    <i class="fas fa-times" id="reset_OTP_number" style="font-size: 20px"></i>
+                </div>
+                <br>
+                <label for="username">Username</label>
+                <div class="position-relative mb-2 login-form">
+                    <img src="assets/icons/Icon awesome-user-circle.png" class="position-absolute" style="top: 15px; left:25px" width="20px">
+                    <img src="assets/icons/Icon material-done.png" class="position-absolute" style="top: 17px; right:25px" width="18px">
+                    <input type="text" name="username" class="login-input" placeholder="FreelanceAppUser2021">
+                    <span class="text-muted" style="font-size: 12px;">Username will be Visible to everyone & You can't change it</span>
+                </div>
+                <label for="password">password</label>
+                <div class="position-relative mb-2 login-form">
+                    <img src="assets/icons/Icon material-lock.png" class="position-absolute" style="top: 15px; left:25px" width="15px">
+                    <img src="assets/icons/Icon ionic-ios-eye-off.png" class="position-absolute" style="top: 17px; right:25px" width="18px">
+                    <input type="password" name="username" class="login-input" placeholder="***********">
+                    <span class="text-muted" style="font-size: 12px;">Enter Upper, Lowercase letters & Number for strong Password</span>
+                </div>
+                <div class="checkbox-forget-btn mt-3">
+                    <input type="checkbox" class=" me-2">
+                    <span style="font-size: 13px;">By Joining, I agree with App's Terms and Conditions</span>
+                </div>
+                <div class="text-center mt-3">
+                    <input type="submit" name="" class="get-started-btn" value="Sign Up">
+                </div>
+            </form>
+        </div>
+        <div class="text-center mt-4 py-3">
+            <span class="text-muted" style="font-size: 12px;">Already have an account?</span>
+            <a href="login.html" class="sign-up-link ms-3">Sign in Here</a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>
