@@ -11,7 +11,17 @@ $(document).ready(function() {
     $(this).on('click', '.get-started-btn', function() {
         $('#intro_page_three').addClass('d-none');
         $('#sign_up_page').removeClass('d-none');
-    })
+    });
+    $(this).on('click', '#page_1_skip', function() {
+        $('#intro_page_one').addClass('d-none');
+        $('#sign_up_page').removeClass('d-none');
+
+    });
+    $(this).on('click', '#page_2_skip', function() {
+        $('#intro_page_two').addClass('d-none');
+        $('#sign_up_page').removeClass('d-none');
+
+    });
 
     // FOR OTP MESSAGE
     $('.digit-group').find('input').each(function() {
